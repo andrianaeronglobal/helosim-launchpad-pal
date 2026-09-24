@@ -212,9 +212,7 @@ function Index() {
                 Pilihan Paket
               </div>
               <h2 className="mt-3 flex items-center gap-4 font-display text-5xl font-black uppercase tracking-tight text-balance sm:text-6xl">
-                <span className="text-4xl sm:text-5xl" role="img" aria-label="Bendera Indonesia">
-                  🇮🇩
-                </span>
+                <IndonesiaFlag className="size-10 sm:size-12" />
                 <span className="relative inline-block">
                   <span className="absolute -inset-1 -rotate-1 rounded-2xl bg-brand-yellow/70" />
                   <span className="relative text-brand-navy">Paket Indonesia</span>
