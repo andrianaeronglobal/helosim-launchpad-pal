@@ -93,32 +93,6 @@
   --border: oklch(0.9 0.02 262);
   --input: oklch(0.9 0.02 262);
   --ring: var(--brand-red);
-
-  --font-display: "Archivo", ui-sans-serif, system-ui, sans-serif;
-  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
-
-  --animate-fade-up: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
-  --animate-float: float 6s ease-in-out infinite;
-
-  @keyframes fade-up {
-    from {
-      opacity: 0;
-      transform: translateY(22px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  @keyframes float {
-    0%,
-    100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
 }
 
 @layer base {
@@ -131,8 +105,4 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
   }
-}
-
-@utility font-display {
-  font-family: var(--font-display);
 }
