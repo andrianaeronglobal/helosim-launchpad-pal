@@ -85,7 +85,7 @@ function WhatsAppIcon({ className = "size-5" }: { className?: string }) {
 function IndonesiaFlag({ className = "size-5" }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 16" className={`overflow-hidden rounded-[3px] ring-1 ring-black/10 ${className}`} aria-hidden="true">
-      <rect width="24" height="8" fill="#e0术0000" />
+      <rect width="24" height="8" fill="#e00000" />
       <rect y="8" width="24" height="8" fill="#ffffff" />
     </svg>
   );
