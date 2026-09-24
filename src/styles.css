@@ -63,6 +63,7 @@
   --color-brand-red: var(--brand-red);
   --color-brand-yellow: var(--brand-yellow);
   --color-brand-navy: var(--brand-navy);
+  --color-brand-green: var(--brand-green);
   --color-cream: var(--cream);
 }
 
@@ -72,6 +73,7 @@
   --brand-red: oklch(0.62 0.21 27);
   --brand-yellow: oklch(0.82 0.15 85);
   --brand-navy: oklch(0.28 0.09 262);
+  --brand-green: oklch(0.7 0.17 155);
   --cream: oklch(0.985 0.012 90);
 
   --background: oklch(0.99 0.008 90);
