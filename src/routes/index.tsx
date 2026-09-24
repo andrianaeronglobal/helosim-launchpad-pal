@@ -239,9 +239,7 @@ function Index() {
                   </span>
                 )}
                 <div className="flex items-center gap-2">
-                  <span role="img" aria-label="Bendera Indonesia" className="text-base">
-                    🇮🇩
-                  </span>
+                  <IndonesiaFlag className="size-4" />
                   <span className={p.featured ? "text-xs text-primary-foreground/60" : "text-xs text-muted-foreground"}>
                     Indonesia · {p.days}
                   </span>
